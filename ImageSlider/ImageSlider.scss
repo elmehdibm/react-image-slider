@@ -1,0 +1,44 @@
+.container-image-slider{
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+
+&__image {
+  
+  height: 450px;
+  width: 100%;
+  z-index: 1;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+&__play{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -4px;
+}
+
+&__pause{
+  display: inline-block;
+  width: 16px;
+  vertical-align: top;
+  margin-top: -4px;
+}
+
+&__next{
+  display: inline-block;
+  width: 18px;
+  vertical-align: top;
+  margin-top: -5px;
+}
+
+&__prev{
+  display: inline-block;
+  width: 18px;
+  vertical-align: top;
+  margin-top: -5px;
+}
+}
